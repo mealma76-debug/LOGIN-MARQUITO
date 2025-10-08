@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: url("login.avif");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;  /* se adapta a la pantalla */
+  }
+ 
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    backdrop-filter: blur(5px); /* efecto de difuminado del fondo */
+  }
+ main{
+  color: #fff;
+ }
